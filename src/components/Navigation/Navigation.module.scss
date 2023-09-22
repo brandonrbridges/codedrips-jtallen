@@ -1,0 +1,8 @@
+.link {
+	@apply text-white transition-transform;
+	@apply hidden md:block;
+
+	&:hover {
+		@apply -translate-y-1;
+	}
+}

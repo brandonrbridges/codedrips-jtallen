@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-[#e6e7e8];
+	@apply min-h-screen flex flex-col;
+}
+
+* {
+	@apply text-primary;
+}
+
+.bg-primary * {
+	@apply text-white;
+}
